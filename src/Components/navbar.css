@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  color: #555357;
+  font-weight: 600;
+}
+.nav-items {
+  display: flex;
+  gap: 5vw;
+  text-align: center;
+}
