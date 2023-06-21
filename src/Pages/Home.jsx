@@ -2,6 +2,12 @@ import React from 'react'
 import './home.css'
 import  home_hero  from "../Assets/images/home-hero.png";
 import  home_intro  from "../Assets/images/intro-image.png";
+import HFeature from '../Components/HomeComp/HFeature';
+import HServices from '../Components/HomeComp/HServices';
+import Assurance from '../Components/HomeComp/Assurance';
+import Why from '../Components/HomeComp/Why';
+import Client from '../Components/HomeComp/Client';
+import Testimonial from '../Components/HomeComp/Testimonial';
 
 const Home = () => {
   return (
@@ -51,6 +57,14 @@ const Home = () => {
           </form>
         </div>
       </div>
+
+      <HFeature />
+      <HServices />
+      <Assurance />
+      <Why />
+      <Client />
+      <Testimonial/>
+
     </div>
   );
 }

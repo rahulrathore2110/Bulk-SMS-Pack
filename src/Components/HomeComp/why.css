@@ -1,0 +1,48 @@
+.why-outer{
+    text-align: center;
+}
+
+.why{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5%;
+    gap: 5%;
+    text-align: left;
+    
+}
+
+.why > div{
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--btn-light);
+    transition: var(--transition);
+    
+   
+}
+
+.why > div:hover{
+    background-color: transparent;
+}
+
+.why > div >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px 0px; */
+   
+    
+}
+
+.why > div p{
+    margin: 10px 0px;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}

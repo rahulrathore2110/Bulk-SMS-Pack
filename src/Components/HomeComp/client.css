@@ -1,0 +1,26 @@
+.client{
+    padding: 20px 0px;
+    display: flex;
+    
+    
+    
+}
+
+.c-outer{
+background-color: var(--btn-light);
+    border: 5px solid var(--btn);
+    border-radius: 10px;
+    margin: 20px 0px;
+    
+}
+
+.c-outer:hover{
+    background-color: transparent;
+    transition: var(--transition);
+}
+
+img{
+    border-radius: 10px;
+    margin: 0px 20px;
+   
+}

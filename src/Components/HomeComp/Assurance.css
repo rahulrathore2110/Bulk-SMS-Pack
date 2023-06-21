@@ -1,0 +1,37 @@
+.assurance {
+  text-align: center;
+}
+
+.a-list {
+  padding: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.a-list > div{
+    display: grid;
+    background-color: var(--btn-light);
+    padding: 5%;
+    border-radius: 5%;
+    border: 3px solid var(--btn-dark);
+    transition: var(--transition);
+    
+}
+
+.a-list > div:hover{
+    background-color: transparent;
+}
+
+.a-list > div > p{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    letter-spacing: 1.5px;
+    margin: 5px;
+}
+
+.a-bullet{
+    color: var(--btn-dark);
+    font-size: 20px;
+}

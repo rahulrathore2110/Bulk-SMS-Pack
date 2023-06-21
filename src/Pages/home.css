@@ -1,3 +1,10 @@
+@media screen and (min-width : 1200px) {
+    .home{
+        width: 1200px;
+        margin: auto;
+    }
+}
+
 .hero-home {
   padding: 30px 0px;
   display: grid;
@@ -21,12 +28,12 @@
 }
 
 .hcont-one{
-    background-color: rgb(153, 150, 219);
+    background-color: var(--btn-light);
    padding: 5px 15px;
    display: inline-block;
    border-radius: 1rem;
    font-weight: 600;
-   color: white;
+   color: black;
 }
 
 .hcont-two{
@@ -40,14 +47,14 @@
 }
 
 .hcont-four{
-     background-color: rgb(32, 22, 219);
+     background-color: var(--btn);
    padding: 10px 15px;
    display: inline-block;
    border-radius: 1rem;
    font-weight: 500;
    letter-spacing: 1px;
    margin: 10px 0px;
-   color: white;
+   color: black;
 }
 
 .intro{
@@ -76,13 +83,12 @@
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
 
 .intro p{
     text-align: center;
-    background-color: rgb(255,244,207);
+    background-color: var(--btn-light);
     border-radius: 10px;
     display: inline-block;
     padding: 5px 10px;
@@ -99,16 +105,18 @@
     border-radius: 5px;
     border: none;
     /* background-color: rgba(15, 71, 126, 0.084); */
-    border-bottom: 1px solid blue;
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
+    border-bottom: 1px solid rgb(225, 191, 78);
+    border-left: 1px solid rgb(237, 210, 120);
+    border-right: 1px solid rgb(237, 210, 120);
 }
 .intro button{
     padding: 10px;
-    background-color: rgb(78, 78, 100);
-    color: white;
+    background-color: var(--btn);
+    color: black;
     border: none;
     border-radius: 5px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .intro form h2{

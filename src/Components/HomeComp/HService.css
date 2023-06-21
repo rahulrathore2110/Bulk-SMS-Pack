@@ -1,0 +1,51 @@
+.hservice{
+    padding: 5%;
+}
+
+.scard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.scard img{
+    width: 90%;
+    
+}
+
+.simage{
+    display: flex;
+    justify-content: center;
+}
+.scontent{
+    display: grid;
+    align-content: center;
+    gap: 5%;
+
+}
+.scontent > p:not(.s-slogn){
+    color: #6d6b68;
+}
+.s-slogn{
+    color: var(--btn-dark);
+    text-decoration: overline;
+}
+
+.scontent > div{
+    display: flex;
+    gap: 5%;
+    
+}
+
+
+.scontent > div p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6d6b68;
+    
+}
+
+.s-icon{
+    color: var(--btn-dark);
+}
